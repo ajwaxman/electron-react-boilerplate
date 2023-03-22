@@ -6,12 +6,13 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-  background: linear-gradient(
+  /* background: linear-gradient(
     200.96deg,
     #fedc2a -29.09%,
     #dd5789 51.77%,
     #7a2c9e 129.35%
-  );
+  ); */
+
   font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
@@ -20,7 +21,7 @@ body {
 }
 
 button {
-  background-color: white;
+  background-color: black;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
@@ -31,6 +32,7 @@ button {
   transition: all ease-in 0.1s;
   cursor: pointer;
   opacity: 0.9;
+  color: white;
 }
 
 button:hover {
@@ -58,5 +60,12 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0;
+}
+
+.timer {
+  font-size: 4.5rem;
+  text-align: center;
+  color: black;
   margin: 20px 0;
 }
